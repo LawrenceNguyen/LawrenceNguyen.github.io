@@ -1,0 +1,122 @@
+@font-face{
+    font-family: "ruastilla";
+    src: url(ruastilla.ttf)
+}
+@font-face{
+    font-family: "madeline";
+    src: url(Madeline.otf)
+}
+@font-face{
+    font-family: "countryside";
+    src: url(countryside.ttf)
+}
+.bodyhome {
+    background-image: url("images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "madeline";
+    font-size: 30px;
+}
+.title{
+    font-family:"countryside";
+    font-size: 80px;
+    text-align: center;
+    color:#AB7EB6;
+    margin-top:250px;
+    
+}
+.bodyabout {
+    background-image: url("images/drop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "madeline";
+    font-size: 30px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    background-color: rgba(56, 2, 91, 0.5);
+    overflow:hidden;
+}
+
+.navlist {
+    float: left;
+}
+
+.navlist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: red;
+}
+h1 {
+    color: black;
+    font-family: 'ruastilla';
+    font-size:60px;
+}
+h2{
+    color: black;
+    font-family: 'ruastilla';
+    font-size:40px;
+}
+h3{
+    color: black;
+    font-family: 'ruastilla';
+    font-size:60px;
+}
+h4 {
+    color: black;
+    font-family: 'ruastilla';
+    font-size:30px;
+}
+
+#content{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:68%;
+    background-color: rgba(255,255,255,0.6)
+}
+#songs{
+    text-align: left;
+    margin:auto;
+    width:20%;
+    
+}
+#edu{
+    text-align: left;
+    margin:auto;
+    width:40%;
+    
+}
+table{
+    margin:0px auto;
+}
+.nav #right{
+    float:right;
+}
+#motivated{
+    width:70%;
+    text-align: center;
+    margin:auto;
+}
+#resume{
+    background-image:url(images/pier.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro{
+    width:70%;
+    text-align: center;
+    margin:auto;
+}
